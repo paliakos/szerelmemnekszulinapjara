@@ -92,9 +92,6 @@ div.kerdoiv h1 {
     gap: 10px;
     margin-bottom: 20px;
 
-#answers p {
-    color: #1a1a1a;
-}
 
 button.answer {
     width: 100%;
@@ -111,7 +108,8 @@ button.answer {
     transition: all 0.25s ease;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
     box-sizing: border-box;
-    color: red;
+    color: #1a1a1a !important;
+    -webkit-text-fill-color: #1a1a1a;
 }
 
 
