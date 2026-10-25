@@ -91,6 +91,9 @@ div.kerdoiv h1 {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
+
+#answers p {
+    color: #1a1a1a;
 }
 
 button.answer {
