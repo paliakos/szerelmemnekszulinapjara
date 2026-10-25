@@ -1,7 +1,7 @@
 
 body {
     background: #C176C9;
-    min-height: 100vh;
+    min-height: 100dvh;
     margin: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: #1a1a1a;
@@ -19,7 +19,7 @@ video {
 
 
 .fo {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
