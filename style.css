@@ -1,11 +1,10 @@
-
 body {
     background: #C176C9;
     min-height: 100dvh;
     margin: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: #1a1a1a;
-    -webkit-text-size-adjust: 100%; /* Ez is segít */
+    -webkit-text-size-adjust: 100%;
 }
 
 video {
@@ -18,7 +17,6 @@ video {
     z-index: -1;
 }
 
-
 .fo {
     min-height: 100dvh;
     display: flex;
@@ -27,7 +25,6 @@ video {
     padding: 15px;
     box-sizing: border-box;
 }
-
 
 div.hatter {
     width: 90%;
@@ -39,11 +36,9 @@ div.hatter {
     border: 1px solid rgba(36, 36, 36, 0.1);
     border-radius: 30px;
     padding: 25px 20px;
-
     box-sizing: border-box;
     text-align: center;
 }
-
 
 h1.hb {
     font-family: 'Great Vibes', cursive;
@@ -85,20 +80,18 @@ div.kerdoiv h1 {
     min-height: 40px;
 }
 
-
 #answers {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
-
+}
 
 button.answer {
     width: 100%;
     padding: 14px 16px;
     background-color: rgba(255, 255, 255, 0.85);
-
     border-radius: 18px;
     border: none;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -110,13 +103,15 @@ button.answer {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
     box-sizing: border-box;
     color: #1a1a1a !important;
-    -webkit-text-fill-color: #1a1a1a;
+    -webkit-text-fill-color: #1a1a1a !important;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
-
 button.answer.selected {
-    background: linear-gradient(135deg, #e91e63, #d81b60);
-    color: #ffffff;
+    background: linear-gradient(135deg, #e91e63, #d81b60) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
     width: 102%;
     font-weight: 600;
     box-shadow: 0 6px 20px rgba(216, 27, 96, 0.3);
@@ -136,15 +131,14 @@ button.answer.selected {
     transition: all 0.25s ease;
     box-shadow: 0 5px 15px rgba(233, 30, 99, 0.35);
     box-sizing: border-box;
-    
-    /* Mobil natív kinézet tiltása */
     -webkit-appearance: none;
     appearance: none;
 }
 
 #next-button:disabled {
-    background: #ffb0de;
-    color: #888888;
+    background: #ffb0de !important;
+    color: #888888 !important;
+    -webkit-text-fill-color: #888888 !important;
     opacity: 0.7;
     cursor: not-allowed;
     box-shadow: none;
@@ -157,9 +151,7 @@ button.answer.selected {
     margin: 4px 0;
     text-align: left;
     font-size: 0.9rem;
-    color: #1a1a1a;
+    color: #1a1a1a !important;
+    -webkit-text-fill-color: #1a1a1a !important;
     border: 1px solid rgba(216, 27, 96, 0.1);
 }
-
-
-
