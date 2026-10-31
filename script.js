@@ -11,7 +11,7 @@ const questions = [
         answers: [
             "Étterem, ami a kiszserbo kedvence",
             "Füvészkert, ahol a kiszserbó fotózgatja a fákat",
-            "Egy moziba, amit nem részletezek...",
+            "Egy moziba, a cukim kedvenc filmjére",
             "Piknikezni a vadonba, ahol fél kiszserbó az oroszlántól"
         ]
     },
@@ -30,7 +30,7 @@ const questions = [
             "Holnap",
             "Holnapután",
             "Kiskedden",
-            "Majd megbeszeljük, hogy mnikor szeretnék menni én a világ legcukibb baratnője"
+            "Majd megbeszeljük, hogy mikor szeretne menni a világ legcukibb barátnője"
         ]
     }
 ];
